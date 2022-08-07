@@ -84,9 +84,12 @@ map("n", "<C-p>", ":Telescope find_files<CR>", opt)
 -- 全局搜索
 map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
 
+--vim-go
+map("n", "<leader>gd", ":GoDef<cr>", opt)
+map("n", "<leader>gl", ":GoLint<cr>", opt)
+map("n", "<leader>gg", ":GoDeclsDir<cr>", opt)
 -- 插件快捷键
 local pluginKeys = {}
-
 -- nvim-tree
 -- alt + m 键打开关闭tree
 map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
