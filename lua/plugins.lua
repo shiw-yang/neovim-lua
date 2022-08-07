@@ -41,6 +41,7 @@ packer.startup({
 		use("hrsh7th/cmp-buffer") -- { name = 'buffer' },
 		use("hrsh7th/cmp-path") -- { name = 'path' }
 		use("hrsh7th/cmp-cmdline") -- { name = 'cmdline' }
+		use({ "petertriho/cmp-git", requires = "nvim-lua/plenary.nvim" })
 		-- 常见编程语言代码段
 		use("rafamadriz/friendly-snippets")
 		-- ui
@@ -56,6 +57,9 @@ packer.startup({
 		use({ "lewis6991/gitsigns.nvim" })
 		-- Comment
 		use("numToStr/Comment.nvim")
+		-- go
+		use("fatih/vim-go")
+		use("neoclide/coc.nvim")
 	end,
 	config = {
 		-- 并发数限制

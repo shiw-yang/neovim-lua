@@ -1,6 +1,6 @@
 -- utf8
 vim.g.encoding = "utf-8"
-vim.o.fileencoding = 'utf-8'
+vim.o.fileencoding = "utf-8"
 -- jkhl 移动时光标周围保留8行
 vim.o.scrolloff = 8
 vim.o.sidescrolloff = 8
@@ -22,7 +22,7 @@ vim.o.shiftwidth = 2
 vim.bo.shiftwidth = 2
 
 -- 不可以使用鼠标
-vim.o.mouse = 'a'
+vim.o.mouse = "a"
 -- 搜索大小写不敏感，除非包含大写
 vim.o.ignorecase = true
 vim.o.smartcase = true
@@ -61,7 +61,7 @@ vim.o.list = true
 -- 补全增强
 vim.o.wildmenu = true
 -- Dont' pass messages to |ins-completin menu|
-vim.o.shortmess = vim.o.shortmess .. 'c'
+vim.o.shortmess = vim.o.shortmess .. "c"
 -- 补全最多显示10行
 vim.o.pumheight = 10
 -- 永远显示 tabline
